@@ -1,19 +1,17 @@
+import os
 import sys
-sys.path.append('C:\\development\\raspberrypi4\\barcode')
 
-print sys.path
+# set the path to the barcode reader
+sys.path.append(os.environ['HOME'] + '/raspberrypi4/barcode')
 
 import urllib
 import urllib2
-from read import devices
+import read
 
-print devices()
-
-# url = 'http://localhost:8080/'
-
-# values = {'barcode' : read('/dev/input/event0') }
-
-# data = urllib.urlencode(values)
-# req = urllib2.Request(url, data)
-# response = urllib2.urlopen(req)
-# print response.read()
+while True:
+    url = 'http://localhost:8080/'
+    values = {'barcode' : read.barcode('/dev/input/event0') }
+    data = urllib.urlencode(values)
+    req = urllib2.Request(url, data)
+    response = urllib2.urlopen(req)
+    print response.read()

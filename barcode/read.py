@@ -24,7 +24,7 @@ capscodes = {
 def devices():
     return [evdev.InputDevice(path) for path in evdev.list_devices()]
 
-def read(devicePath):
+def barcode(devicePath):
 
     dev = InputDevice(devicePath)
     dev.grab() # grab provides exclusive access to the device
