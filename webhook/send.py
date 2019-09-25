@@ -8,8 +8,9 @@ import urllib
 import urllib2
 import read
 
+url = 'http://localhost:8080/'
+
 while True:
-    url = 'http://localhost:8080/'
     values = {'barcode' : read.barcode('/dev/input/event0') }
     data = urllib.urlencode(values)
     req = urllib2.Request(url, data)
