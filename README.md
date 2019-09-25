@@ -21,3 +21,9 @@
    # you need to edit the scan.py file and change the url and the device path
    python send.py
 ```
+
+## supervisord
+```bash
+   cd supervisord
+   ./install.sh
+```
