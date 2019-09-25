@@ -24,6 +24,7 @@
 
 ## supervisord
 ```bash
+   # you will probably need to update the barcode.conf because of the application path if it will change
    cd supervisord
    ./install.sh
 ```
