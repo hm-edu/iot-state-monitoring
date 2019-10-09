@@ -11,6 +11,8 @@
 ```bash
     # requirements
     pip install evdev
+    pip install pathlib
+    pip install websockets
 ```
 
 ## webhook

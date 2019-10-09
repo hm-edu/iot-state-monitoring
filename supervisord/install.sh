@@ -15,3 +15,4 @@ pip3 install websockets
 
 sudo cp barcode.conf /etc/supervisor/conf.d/barcode.conf
 sudo supervisorctl update
+sudo cp -rf ../websocket/htdocs /var/www/html/barcode
