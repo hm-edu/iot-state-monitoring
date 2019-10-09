@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-    var connection = new WebSocket('ws://192.168.178.119:8080/', ['soap', 'xmpp']);
+    var connection = new WebSocket('ws://127.0.0.1:8080/', ['soap', 'xmpp']);
     connection.onopen = function () {
 	connection.send('ping');
     };
