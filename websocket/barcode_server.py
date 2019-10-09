@@ -9,7 +9,6 @@ import asyncio
 import websockets
 
 async def barcodeFn(websocket, path):
-    await websocket.recv()
     barcodeTxt = read.barcode('/dev/input/event1')
     print(barcodeTxt)
     await websocket.send(barcodeTxt)
