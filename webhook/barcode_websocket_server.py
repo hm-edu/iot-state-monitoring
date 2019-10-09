@@ -11,7 +11,7 @@ import websockets
 async def barcodeFn(websocket, path):
     await websocket.recv()
     barcodeTxt = read.barcode('/dev/input/event1')
-    print barcodeTxt
+    print(barcodeTxt)
     await websocket.send(barcodeTxt)
 
 start_server = websockets.serve(barcodeFn, "127.0.0.1", 8080)
