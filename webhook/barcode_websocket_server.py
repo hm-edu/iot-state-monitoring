@@ -8,13 +8,13 @@ import read
 import asyncio
 import websockets
 
-async def hello(websocket, path):
+async def barcodeFn(websocket, path):
     await websocket.recv()
-    barcode = read.barcode('/dev/input/event1')
-    print barcode
-    await websocket.send(barcode)
+    barcodeTxt = read.barcode('/dev/input/event1')
+    print barcodeTxt
+    await websocket.send(barcodeTxt)
 
-start_server = websockets.serve(hello, "localhost", 8765)
+start_server = websockets.serve(barcodeFn, "127.0.0.1", 8080)
 
 asyncio.get_event_loop().run_until_complete(start_server)
 asyncio.get_event_loop().run_forever()
