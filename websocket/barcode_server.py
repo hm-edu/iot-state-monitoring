@@ -8,12 +8,19 @@ import read
 import asyncio
 import websockets
 
+connected = set()
+
 async def barcodeFn(websocket, path):
-    await websocket.recv()
-    while True:
-        barcodeTxt = read.barcode('/dev/input/event0')
-        print(barcodeTxt)
-        await websocket.send(barcodeTxt)
+    #await websocket.recv()
+    connected.add(websocket)
+    try:
+        while True:
+            barcodeTxt = read.barcode('/dev/input/event0')
+            print(barcodeTxt)
+            #await websocket.send(barcodeTxt)
+            await asyncio.wait([ws.send(barcodeTxt) for ws in connected])
+    finally:
+         connected.remove(websocket)
 
 #start_server = websockets.serve(barcodeFn, "127.0.0.1", 8080)
 start_server = websockets.serve(barcodeFn, "0.0.0.0", 8080)
