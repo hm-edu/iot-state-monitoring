@@ -20,6 +20,6 @@ async def sendBarCode():
          while True:
             barcodeTxt = read.barcode('/dev/input/event0')
             print(barcodeTxt)
-            await websocket.send(barcodeTxt))
+            await websocket.send(barcodeTxt)
 
 asyncio.get_event_loop().run_until_complete(sendBarCode())
