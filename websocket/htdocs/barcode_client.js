@@ -1,40 +1,35 @@
 $( document ).ready(function() {
-//    var connection = new WebSocket('ws://127.0.0.1:8020/', []);
-    var connection = new WebSocket('ws://192.168.177.81:8020/', []);
+
+    // 8020 nginx proxy
+    //var url = 'ws://127.0.0.1:8020/';
+    var url = 'ws://192.168.177.81:8080/';
     
-    connection.onopen = function () {
-	connection.send('ping');
+    openWebSocket();
+
+   function openWebSocket(){
+    
+    var  ws = new WebSocket(url, []);
+  
+    ws.onopen = function () {
+    
+	  ws.send('ping');
     };
     
-    connection.onerror = function (error) {
+    ws.onerror = function (error) {
 	console.log('WebSocket Error ' + error);
     };
     
-    connection.onmessage = function (e) {
+    ws.onmessage = function (e) {
 	console.log('Server: ' + e.data);
 	$('#barcodeTxt').append("<div>"+e.data+"</div>");
     };
     
-    websocket.onclose = function (e) {            
+    ws.onclose = function (e) {            
     $('#barcodeTxt').append('Socket closed');    
+     ws = null;
+     setTimeout(openWebSocket, 2000);   
+    };
     
-    //retryOpeningWebSocket();
-
-};
-
-function openWebSocket(){
-    if (websocket.readyState === undefined || websocket.readyState > 1) {
-
-    }
-
-}
-
-
-function retryOpeningWebSocket(){
-    if (retries < 2) {            
-        //setTimeout(openWebSocket, 1000);            
-        retries++;
-    }
-}
-
+  }
+ 
 });
