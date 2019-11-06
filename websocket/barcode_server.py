@@ -14,11 +14,13 @@ async def barcodeFn(websocket, path):
     #await websocket.recv()
     connected.add(websocket)
     try:
-        while True:
-            barcodeTxt = read.barcode('/dev/input/event0')
-            print(barcodeTxt)
+       async for message in websocket:
+         await asyncio.wait([ws.send(message) for ws in connected])
+       # while True:
+        #    barcodeTxt = read.barcode('/dev/input/event0')
+         #   print(barcodeTxt)
             #await websocket.send(barcodeTxt)
-            await asyncio.wait([ws.send('hello') for ws in connected])
+
     finally:
          connected.remove(websocket)
          
