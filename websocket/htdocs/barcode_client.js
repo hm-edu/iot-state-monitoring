@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 //    var connection = new WebSocket('ws://127.0.0.1:8020/', []);
-    var connection = new WebSocket('ws://192.168.177.80:8020/', []);
+    var connection = new WebSocket('ws://192.168.177.81:8020/', []);
     connection.onopen = function () {
 	connection.send('ping');
     };
