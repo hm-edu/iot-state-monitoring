@@ -14,13 +14,22 @@ async def barcodeFn(websocket, path):
     #await websocket.recv()
     connected.add(websocket)
     try:
-        while True:
-            barcodeTxt = read.barcode('/dev/input/event0')
-            print(barcodeTxt)
+       # while True:
+        #    barcodeTxt = read.barcode('/dev/input/event0')
+        #    print(barcodeTxt)
             #await websocket.send(barcodeTxt)
-            await asyncio.wait([ws.send(barcodeTxt) for ws in connected])
+       await asyncio.wait([ws.send('hello') for ws in connected])
     finally:
          connected.remove(websocket)
+         
+async def do_io():
+    print('io start')
+    #await asyncio.sleep(5)
+     while True:
+            barcodeTxt = read.barcode('/dev/input/event0')
+            print(barcodeTxt)
+            await asyncio.wait([ws.send(barcodeTxt) for ws in connected])
+    print('io end')
 
 #start_server = websockets.serve(barcodeFn, "127.0.0.1", 8080)
 start_server = websockets.serve(barcodeFn, "0.0.0.0", 8080)
@@ -28,3 +37,4 @@ start_server = websockets.serve(barcodeFn, "0.0.0.0", 8080)
 
 asyncio.get_event_loop().run_until_complete(start_server)
 asyncio.get_event_loop().run_forever()
+asyncio.get_event_loop().run_until_complete(do_io)
