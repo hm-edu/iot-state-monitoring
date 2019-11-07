@@ -40,7 +40,7 @@ def on_open(ws):
 
 if __name__ == "__main__":
     websocket.enableTrace(True)
-    ws = websocket.WebSocketApp("ws://127.0.0.1:8081",
+    ws = websocket.WebSocketApp("ws://127.0.0.1:8080",
                               on_message = on_message,
                               on_error = on_error,
                               on_close = on_close)

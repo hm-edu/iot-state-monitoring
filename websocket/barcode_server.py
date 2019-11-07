@@ -26,7 +26,7 @@ async def barcodeFn(websocket, path):
 
 print("starting service at 0.0.0.0:8081...")
 #start_server = websockets.serve(barcodeFn, "127.0.0.1", 8080)
-start_server = websockets.serve(barcodeFn, "0.0.0.0", 8081)
+start_server = websockets.serve(barcodeFn, "0.0.0.0", 8080)
 
 asyncio.get_event_loop().run_until_complete(start_server)
 asyncio.get_event_loop().run_forever()

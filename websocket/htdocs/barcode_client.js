@@ -2,7 +2,7 @@ $( document ).ready(function() {
 
     // 8020 nginx proxy
     //var url = 'ws://127.0.0.1:8020/';
-    var url = 'ws://127.0.0.1:8081/';
+    var url = 'ws://127.0.0.1:8080/';
     
     openWebSocket();
     
