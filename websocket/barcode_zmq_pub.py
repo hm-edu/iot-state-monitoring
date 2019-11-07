@@ -19,6 +19,6 @@ print("waiting for barcode to be scanned...")
 
 while True:
     topic = "barcode-scanner"
-    messagedata = read.barcode('/dev/input/event7')
+    messagedata = read.barcode('/dev/input/event0')
     print(topic, messagedata)
     socket.send_string("%s %s" % (topic, messagedata))
