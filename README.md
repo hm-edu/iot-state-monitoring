@@ -13,6 +13,9 @@
     pip install evdev
     pip install pathlib
     pip install websockets
+    # for the zmq version
+    pip install pyzmq
+    pip install redis
 ```
 
 ## webhook
