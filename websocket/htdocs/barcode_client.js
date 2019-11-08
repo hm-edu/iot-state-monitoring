@@ -74,7 +74,8 @@ $( document ).ready(function() {
 	//$('#wsFrame').prop('src', e.data);
 	
 	var note = createNotification(100, e.data, e.data);
-	$('#barcodeTxt').prepend(note).slideDown( "slow" );
+	//$('#barcodeTxt').prepend(note).slideDown( "slow" );
+	$(note).hide().prependTo("#barcodeTxt").slideDown("slow");
     };
     
     ws.onclose = function (e) { 
