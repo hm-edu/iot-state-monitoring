@@ -1,0 +1,27 @@
+Schema CDS (fürs Hochregallager und den Brennofen)
+
+·       URL: http://10.20.63.102:3080/cds/online
+
+·       Benutzername: admin
+
+·       Kennwort: admin
+
+ 
+
+Topic Pilot (für den Brennofen)
+
+·       URL: http://10.20.63.102:8480/
+
+·       Benutzername: topicpilot-admin@hm.edu
+
+·       Kennwort: trk2FK05
+
+ 
+
+i-views content (für alle Inhalte Hochregallager, Brennofen, Sortieranlage)
+
+·       https://ivcontent.i-views.com/mucstud/index.html
+
+·       Benutzername: tester
+
+·       Kennwort tester
