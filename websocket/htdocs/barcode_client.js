@@ -46,7 +46,7 @@ $( document ).ready(function() {
        var tagDate = '<span class="tag is-lite is-pulled-right">'+date+'</span>';
        var tagName = '<span class="tag is-lite is-pulled-left">'+name+'</span>';
        var btn = '<button class="delete"></button>';
-       var link ='<div style="padding-top:12px;"><a style="font-size:48px; target="_blank" href="'+link+'" style="display:inline-block;width:100%;">'+title+'</a></div>';
+       var link ='<div style="padding-top:12px;"><a target="_blank" href="'+link+'" style="font-size:48px;display:inline-block;width:100%;">'+title+'</a></div>';
        
        return '<div class="notification '+css+'">'+tagName+tagDate+btn+link+'</div>';
    }
