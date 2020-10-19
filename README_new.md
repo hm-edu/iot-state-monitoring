@@ -1,9 +1,12 @@
 ## Gruppe
-**@danielrieger**\
+**@riegerhm**\
 Daniel Rieger (Gruppenleiter)
 
-**@reittermatthias**\
+**@hmreitter**\
 Matthias Reitter
 
-**@stahlmichael**\
+**@mj-stahl**\
 Michael Stahl
+
+## geplanter Ablauf
+###Konzeptphase
