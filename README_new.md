@@ -8,5 +8,10 @@ Matthias Reitter
 **@mj-stahl**\
 Michael Stahl
 
-## geplanter Ablauf
-###Konzeptphase
+# Vorgehensweise
+## Fehler im Konzept erkennen
+## Verbesserungen für Konzept erstellen
+## Theoretischer Probedruchlauf
+## Unterschiedliche Szenarios durchgehen
+## Programmieren für Fließband und Scanner
+## Finalisierung
