@@ -21,12 +21,14 @@ Michael Stahl
 # Vorgehensweise
 ## 1. Fehler im Konzept erkennen
     * bisheriges Konzept analysieren und Schwachstellen aufdecken
-    * Überarbeiten der Vorgehensweise und neue Ideen einbringen
+    * Überarbeiten der Vorrgehensweise und neue Ideen einbringen
     * Codebasis testen und anpassen
+    ### Raspberry Pi nach Anleitung auf Github aufsetzen und bisherigen Pythoncode testen und amnalysieren
 ## 2. Verbesserungen für Konzept erstellen
     *
     *
 ## 3. Theoretischer Ablauf
+   * auf Github bereitgestellten PythonCode testen
 ## 4. Unterschiedliche Szenarios durchgehen
 ## 5. Programmieren für Fließband und Scanner
 ## 6. Finalisierung
