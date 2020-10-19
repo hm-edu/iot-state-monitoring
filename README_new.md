@@ -13,7 +13,7 @@ Michael Stahl
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |------ | ------ |
 | Fehler im Konzept erkennen| |
 | Verbesserungen für Konzept erstellen ||
-| Theoretischer Probedurchlauf ||
+| Theoretischer Ablauf ||
 | Unterschiedliche Szenarios durchgehen ||
 | Programmieren für Fließband und Scanner ||
 | Finalisierung ||
