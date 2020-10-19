@@ -28,4 +28,4 @@ Michael Stahl
 ## 3. Theoretischer Ablauf
 ## 4. Unterschiedliche Szenarios durchgehen
 ## 5. Programmieren für Fließband und Scanner
-## 6 Finalisierung
+## 6. Finalisierung
