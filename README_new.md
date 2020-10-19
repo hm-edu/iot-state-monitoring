@@ -1,4 +1,4 @@
-## Gruppe
+# Gruppe
 **@riegerhm**\
 Daniel Rieger (Gruppenleiter)
 
