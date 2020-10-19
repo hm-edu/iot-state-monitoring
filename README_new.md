@@ -9,9 +9,9 @@ Matthias Reitter
 Michael Stahl
 
 # Vorgehensweise
-## Fehler im Konzept erkennen
-## Verbesserungen für Konzept erstellen
-## Theoretischer Probedurchlauf
-## Unterschiedliche Szenarios durchgehen
-## Programmieren für Fließband und Scanner
-## Finalisierung
+## 1. Fehler im Konzept erkennen
+## 2. Verbesserungen für Konzept erstellen
+## 3. Theoretischer Probedurchlauf
+## 4. Unterschiedliche Szenarios durchgehen
+## 5. Programmieren für Fließband und Scanner
+## 6. Finalisierung
