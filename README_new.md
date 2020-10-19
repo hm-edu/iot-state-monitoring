@@ -20,8 +20,8 @@ Michael Stahl
 
 # Vorgehensweise
 ## 1. Fehler im Konzept erkennen
-    *
-    *
+    * bisheriges Konzept analysieren und Schwachstellen aufdecken
+    * Überarbeiten der Vorrgehensweise und neue Ideen einbringen
 ## 2. Verbesserungen für Konzept erstellen
     *
     *
