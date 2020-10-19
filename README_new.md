@@ -17,3 +17,15 @@ Michael Stahl
 | Unterschiedliche Szenarios durchgehen ||
 | Programmieren für Fließband und Scanner ||
 | Finalisierung ||
+
+# Vorgehensweise
+## 1. Fehler im Konzept erkennen
+    *
+    *
+## 2. Verbesserungen für Konzept erstellen
+    *
+    *
+## 3. Theoretischer Ablauf
+## 4. Unterschiedliche Szenarios durchgehen
+## 5. Programmieren für Fließband und Scanner
+## 6 Finalisierung
