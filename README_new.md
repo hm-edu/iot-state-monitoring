@@ -17,3 +17,5 @@ Michael Stahl
 | Unterschiedliche Szenarios durchgehen ||
 | Programmieren für Fließband und Scanner ||
 | Finalisierung ||
+
+A[Fehler im Konzept erkennen] -- B[Verbesserungen für Konzept erstellen]
