@@ -1,6 +1,6 @@
 ## Hardware:
 Raspberry Pi 4 (4GB)
-
+![Raspberry Pi 4](https://github.com/hm-edu/iot-state-monitoring/photo5855207474892747808.jpg?raw=true)
 ## installation
 ```bash
    git clone https://git.evalgo.org/axxepta/iot/raspberrypi4.git ${HOME}/raspberrypi4
