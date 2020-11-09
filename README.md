@@ -1,18 +1,27 @@
 # raspberrypi4
+## requirements
+```bash
+Raspberry Pi 4 (4GB)
+![Raspberry Pi 4](https://github.com/hm-edu/iot-state-monitoring/photo5855207474892747808.jpg?raw=true)
+![Raspberry Pi4](photo5855207474892747808.jpg)
+```
 
 ## installation
 ```bash
-   git clone https://git.evalgo.org/axxepta/iot/raspberrypi4.git ${HOME}/raspberrypi4
+   sudo apt update
+   sudo apt install git (confirm with Y)
+   sudo clone  git clone https://github.com/hm-edu/iot-state-monitoring.git ${HOME}raspberrypi4
    cd ${HOME}/raspberrypi4
+   sudo apt install python3-pip (confirm with Y)
+   sudo apt install python-pip (confirm with Y)
    pip install evdev
 ```
 
 ## barcode
 ```bash
     # requirements
-    pip install evdev
     pip install pathlib
-    pip install websockets
+    pip3 install websockets
     # for the zmq version
     pip install pyzmq
     pip install redis
