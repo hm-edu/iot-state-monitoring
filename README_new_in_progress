@@ -16,15 +16,11 @@ Raspberry Pi 4 (4GB)
    pip install evdev
 ```
 
-
-
------old----
 ## barcode
 ```bash
     # requirements
-    pip install evdev
     pip install pathlib
-    pip install websockets
+    pip3 install websockets
     # for the zmq version
     pip install pyzmq
     pip install redis
