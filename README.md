@@ -1,7 +1,10 @@
 # raspberrypi4
-## requirements
+## Vorbereitung
 ```bash
+Hardware:
 Raspberry Pi 4 (4GB)
+Software:
+Raspberry Pi OS Lite (32-bit) (using Raspberry Pi Imager)
 ```
 ![photo5855207474892747808 (1)](https://user-images.githubusercontent.com/32871117/98594021-5803fe80-22d4-11eb-87b4-eda33f4dc424.jpg)
 
