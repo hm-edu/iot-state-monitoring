@@ -12,7 +12,7 @@ Raspberry Pi OS Lite (32-bit) (using Raspberry Pi Imager)
 ```bash
    sudo apt update
    sudo apt install git (confirm with Y)
-   sudo clone  git clone https://github.com/hm-edu/iot-state-monitoring.git ${HOME}raspberrypi4
+   git clone https://github.com/hm-edu/iot-state-monitoring.git ${HOME}raspberrypi4
    cd ${HOME}/raspberrypi4
    sudo apt install python3-pip (confirm with Y)
    sudo apt install python-pip (confirm with Y)
