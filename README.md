@@ -2,8 +2,7 @@
 ## requirements
 ```bash
 Raspberry Pi 4 (4GB)
-[Raspberry Pi 4](https://github.com/hm-edu/iot-state-monitoring/photo5855207474892747808.jpg?raw=true)
-[Raspberry Pi4](photo5855207474892747808.jpg)
+![Raspberry Pi 4](https://user-images.githubusercontent.com/32871117/98594021-5803fe80-22d4-11eb-87b4-eda33f4dc424.jpg?raw=true)
 ```
 
 ## installation
