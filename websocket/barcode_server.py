@@ -2,9 +2,9 @@ import os
 import sys
 
 # set the path to the barcode reader
-sys.path.append('/home/pi/raspberrypi4/barcode')
+#sys.path.append('../barcode')
 
-import read
+#import read
 import asyncio
 import websockets
 
