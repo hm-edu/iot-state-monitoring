@@ -11,7 +11,7 @@
 2. Anschließend Repository über GitHub mit  Visual Studio Code öffnen
 
 ## benötigte Bibliotheken installieren
- oben rechts af grünen Pfeil "run" klicken -> unten öffnet sich ein Terminalfenster. Dort mit folgenden Kommandozeilenbefehlen die benötigten Module installieren.
+ oben rechts auf grünen Pfeil "run" klicken -> unten öffnet sich ein Terminalfenster. Dort mit folgenden Kommandozeilenbefehlen die benötigten Module installieren.
  
 	
 		pip install websockets 
