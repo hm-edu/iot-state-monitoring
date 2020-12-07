@@ -1,3 +1,40 @@
+# Benutzung unter Microsoft Windows 
+(für macOS und Linux mit leichten Anpassungen adaptierbar)
+
+## Grundoraussetzungen
+1. GitHub Desktop installieren (https://desktop.github.com/)
+2. Microsoft Visual Studio Code installieren (https://code.visualstudio.com/)
+3. Python installieren (https://www.python.org/downloads/)
+
+## Code öffnen und bearbeiten
+1. GitHub Desktop öffnen -> benötigtes Repository von GitHub klonen
+2. Anschließend Repository über GitHub mit  Visual Studio Code öffnen
+
+## benötigte Bibliotheken installieren
+ oben rechts af grünen Pfeil "run" klicken -> unten öffnet sich ein Terminalfenster. Dort mit folgenden Kommandozeilenbefehlen die benötigten Module installieren.
+ 
+	```
+		pip install websockets 
+		 
+		pip install asyncio 
+	```
+
+## Modulverwaltung innerhalb der Kommandozeile
+mit `cd ["Pfad/zum/Verzeichnis"]` kann in das gewünschte Verzeichnis gewechselt werden
+
+## Ausführen
+```	
+	cd websocket
+	py barcode-server.py
+```
+*neues Terminalfenster öffnen*
+
+``` 
+	py client.py
+```
+
+*mit Strg + c lassen sich die Prozesse stoppen*
+
 # raspberrypi4
 ## Vorbereitung
 ```bash
