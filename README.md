@@ -25,7 +25,7 @@ mit `cd ["Pfad/zum/Verzeichnis"]` kann in das gewünschte Verzeichnis gewechselt
 ## Ausführen
 ```	
 	cd websocket
-	py barcode-server.py
+	py barcode_server.py
 ```
 *neues Terminalfenster öffnen*
 
@@ -35,7 +35,8 @@ mit `cd ["Pfad/zum/Verzeichnis"]` kann in das gewünschte Verzeichnis gewechselt
 
 *mit Strg + c lassen sich die Prozesse stoppen*
 
-# raspberrypi4
+
+# Mit Raspberry Pi4 als Server
 ## Vorbereitung
 ```bash
 Hardware:
