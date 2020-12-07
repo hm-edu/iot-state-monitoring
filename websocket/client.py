@@ -3,10 +3,10 @@ import sys
 
 # set the path to the barcode reader
 #sys.path.append('../barcode')
-sys.path.append('../../iot-fischer-codegenerator')
+sys.path.append('../iot-fischer-codegenerator/code_generator')
 
 #import read
-#import code_generator
+import code_generator
 import asyncio
 import websockets
 
@@ -21,7 +21,7 @@ async def sendBarCode():
     async with websockets.connect(uri) as websocket:
          while True:
             barcodeTxt = "test 1234" #read.barcode('/dev/input/event0')
-           # barcodeTxt = code_generator.gen_codes(1,1)
+            barcodeTxt = code_generator.gen_codes(2,5)
             print(barcodeTxt)
             await websocket.send(barcodeTxt)
 
