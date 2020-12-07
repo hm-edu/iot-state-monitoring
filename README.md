@@ -5,6 +5,7 @@
 1. GitHub Desktop installieren (https://desktop.github.com/)
 2. Microsoft Visual Studio Code installieren (https://code.visualstudio.com/)
 3. Python installieren (https://www.python.org/downloads/)
+(alternativ über Microsoft Store die aktuellste Versionen installieren)
 
 ## Code öffnen und bearbeiten
 1. GitHub Desktop öffnen -> benötigtes Repository von GitHub klonen
@@ -18,6 +19,7 @@
 		 
 		pip install asyncio 
 
+(falls hierbei Probleme auftreten, weil der pip-Befehl nicht gefunden werden kann, die aktuellste Pythonversion über den Microsoft Store installieren)
 
 ## Modulverwaltung innerhalb der Kommandozeile
 mit `cd ["Pfad/zum/Verzeichnis"]` kann in das gewünschte Verzeichnis gewechselt werden
