@@ -4,7 +4,7 @@
 ## Grundvoraussetzungen
 1. GitHub Desktop installieren (https://desktop.github.com/)
 2. Microsoft Visual Studio Code installieren (https://code.visualstudio.com/)
-3. Python installieren (https://www.python.org/downloads/)
+3. Python installieren (https://www.python.org/downloads/)   
 (alternativ über Microsoft Store die aktuellste Versionen installieren)
 
 ## Code öffnen und bearbeiten
