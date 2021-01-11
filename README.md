@@ -9,6 +9,7 @@
 
 ## Code öffnen und bearbeiten
 1. GitHub Desktop öffnen -> benötigtes Repository von GitHub klonen
+###!Die Daten müssen sich auf einem lokalen Ordner befinden, keinen mit OneDrive synchronisierten Ordner verwenden!
 2. Anschließend Repository über GitHub mit  Visual Studio Code öffnen <br>
 (3. falls sich unten rechts ein Popup-Fenster öffnet, welches die Installation von Python Extensions vorschlägt -> Installieren)
 
