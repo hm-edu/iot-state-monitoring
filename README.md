@@ -10,6 +10,7 @@
 ## Code öffnen und bearbeiten
 1. GitHub Desktop öffnen -> benötigtes Repository von GitHub klonen
 2. Anschließend Repository über GitHub mit  Visual Studio Code öffnen
+(3. falls sich unten rechts ein Popup-Fenster öffnet, welches die Installation von Python Extensions vorschlägt -> Installieren)
 
 ## benötigte Bibliotheken installieren
  oben rechts auf grünen Pfeil "run" klicken -> unten öffnet sich ein Terminalfenster. Dort mit folgenden Kommandozeilenbefehlen die benötigten Module installieren.
