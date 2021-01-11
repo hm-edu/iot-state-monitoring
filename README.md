@@ -23,7 +23,6 @@
 		 
 		pip install asyncio 
 
-(falls hierbei Probleme auftreten, weil der pip-Befehl nicht gefunden werden kann, die aktuellste Pythonversion über den Microsoft Store installieren)
 
 ## Modulverwaltung innerhalb der Kommandozeile
 mit `cd ["Pfad/zum/Verzeichnis"]` kann in das gewünschte Verzeichnis gewechselt werden
