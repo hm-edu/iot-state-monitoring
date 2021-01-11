@@ -2,8 +2,8 @@
 (für macOS und Linux mit leichten Anpassungen adaptierbar)
 
 ## Grundvoraussetzungen
-1. GitHub Desktop installieren (https://desktop.github.com/)
-2. Microsoft Visual Studio Code installieren (https://code.visualstudio.com/)
+1. Microsoft Visual Studio Code installieren (https://code.visualstudio.com/)
+2. GitHub Desktop installieren (https://desktop.github.com/)
 3. Python über den Microsoft Store als aktuellste Version installieren <br>
 	(alternativ Python über den folgenden Link installieren (https://www.python.org/downloads/)   
 
