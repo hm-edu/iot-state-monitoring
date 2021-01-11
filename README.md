@@ -32,7 +32,7 @@ mit `cd ["Pfad/zum/Verzeichnis"]` kann in das gewünschte Verzeichnis gewechselt
 ```	
 	cd websocket
 	py barcode_server.py
-	(alternativ wenn das nicht funktioniert stattdessen: "py barcode_server.py")
+	(alternativ wenn das nicht funktioniert stattdessen: "python barcode_server.py")
 ```
 *neues Terminalfenster öffnen*
 
