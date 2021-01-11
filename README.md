@@ -5,13 +5,13 @@
 1. Microsoft Visual Studio Code installieren (https://code.visualstudio.com/)
 2. GitHub Desktop installieren (https://desktop.github.com/)
 3. Python über den Microsoft Store als aktuellste Version installieren <br>
-	(alternativ Python über den folgenden Link installieren (https://www.python.org/downloads/)   
+	(Alternativ: Python über den folgenden Link installieren (https://www.python.org/downloads/)   
 
 ## Code öffnen und bearbeiten
 1. GitHub Desktop öffnen -> benötigtes Repository von GitHub klonen
-###!Die Daten müssen sich auf einem lokalen Ordner befinden, keinen mit OneDrive synchronisierten Ordner verwenden!
+### !Die Daten müssen sich auf einem lokalen Ordner befinden, keinen mit OneDrive synchronisierten Ordner verwenden!
 2. Anschließend Repository über GitHub mit  Visual Studio Code öffnen <br>
-(3. falls sich unten rechts ein Popup-Fenster öffnet, welches die Installation von Python Extensions vorschlägt -> Installieren)
+(Hinweis: 3. falls sich unten rechts ein Popup-Fenster öffnet, welches die Installation von Python Extensions vorschlägt -> Installieren)
 
 ### !ab hier arbeiten wir ausschließlich im Verzeichnis "websockets" mit der Datei "client.py"!
 ## benötigte Bibliotheken installieren
@@ -19,7 +19,7 @@
  
 	
 		pip install websockets
-		(falls ein Hinweis zum Upgrade der installierten pip-Version rät, diesen befolgen: "python.exe -m pip install --upgrade pip")
+		(Hinweis: falls ein Hinweis zum Upgrade der installierten pip-Version rät, diesen befolgen: "python.exe -m pip install --upgrade pip")
 		 
 		pip install asyncio 
 
