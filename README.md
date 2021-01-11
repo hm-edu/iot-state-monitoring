@@ -17,7 +17,8 @@
  oben rechts auf grünen Pfeil "run" klicken -> unten öffnet sich ein Terminalfenster. Dort mit folgenden Kommandozeilenbefehlen die benötigten Module installieren.
  
 	
-		pip install websockets 
+		pip install websockets <br>
+	(falls ein Hinweis zum Upgrade der installierten pip-Version rät, diesen befolgen)
 		 
 		pip install asyncio 
 
