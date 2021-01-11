@@ -5,7 +5,7 @@
 1. GitHub Desktop installieren (https://desktop.github.com/)
 2. Microsoft Visual Studio Code installieren (https://code.visualstudio.com/)
 3. Python über den Microsoft Store als aktuellste Version installieren
-	(alternativ Python über den folgenden Link installieren (https://www.python.org/downloads/)   
+(alternativ Python über den folgenden Link installieren (https://www.python.org/downloads/)   
 
 ## Code öffnen und bearbeiten
 1. GitHub Desktop öffnen -> benötigtes Repository von GitHub klonen
