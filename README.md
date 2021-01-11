@@ -18,7 +18,7 @@
  
 	
 		pip install websockets <br>
-	(falls ein Hinweis zum Upgrade der installierten pip-Version rät, diesen befolgen: "-m pip install" und "--upgrade pip")
+	(falls ein Hinweis zum Upgrade der installierten pip-Version rät, diesen befolgen: "python.exe -m pip install --upgrade pip")
 		 
 		pip install asyncio 
 
