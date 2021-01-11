@@ -18,7 +18,7 @@
  
 	
 		pip install websockets <br>
-	(falls ein Hinweis zum Upgrade der installierten pip-Version rät, diesen befolgen: "python.exe -m pip install --upgrade pip")
+		(falls ein Hinweis zum Upgrade der installierten pip-Version rät, diesen befolgen: "python.exe -m pip install --upgrade pip")
 		 
 		pip install asyncio 
 
@@ -31,6 +31,7 @@ mit `cd ["Pfad/zum/Verzeichnis"]` kann in das gewünschte Verzeichnis gewechselt
 ```	
 	cd websocket
 	py barcode_server.py
+	(alternativ wenn das nicht funktioniert stattdessen: "py barcode_server.py")
 ```
 *neues Terminalfenster öffnen*
 
